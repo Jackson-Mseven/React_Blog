@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@emailjs/browser':
+    specifier: ^3.12.1
+    version: 3.12.1
   framer-motion:
     specifier: ^10.16.4
     version: 10.16.4(react-dom@18.2.0)(react@18.2.0)
@@ -465,6 +468,11 @@ packages:
     dependencies:
       chalk: 4.1.2
     dev: true
+
+  /@emailjs/browser@3.12.1:
+    resolution: {integrity: sha512-C5nK07CgSCFx3onsuRt/ZaaMvIi0T3SHHanM7fKozjSvbZu+OjHHP9W608fYpic0OavF7yIlfy4+lRDO33JdbA==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /@emotion/is-prop-valid@0.8.8:
     resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
